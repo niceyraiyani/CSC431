@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sandsational - Find Your Perfect Beach</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1>Sandsational</h1>
+      <form id="search-form">
+        <div class="input-wrapper">
+          <input type="text" id="search-term" placeholder="Enter a location">
+        </div>
+        <div class="input-wrapper">
+          <select id="activities-filter">
+            <option value="">All Activities</option>
+            <option value="Swimming">Swimming</option>
+            <option value="Surfing">Surfing</option>
+            <option value="Fishing">Fishing</option>
+            <option value="Beach Volleyball">Beach Volleyball</option>
+            <option value="Kite Flying">Kite Flying</option>
+          </select>
+        </div>
+        <button type="submit">Search</button>
+      </form>
+    </div>
+  </header>
+  
+  <main>
+    <div class="container">
+      <div id="results"></div>
+    </div>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
+
